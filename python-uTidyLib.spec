@@ -4,12 +4,12 @@ Summary:	Python wrapper for TidyLib
 Summary(pl):	Modu³ TidyLib dla Pythona
 Name:		python-%{module}
 Version:	0.2
-Release:	0.1
+Release:	0.2
 License:	MIT
 Group:		Development/Languages/Python
-Source0:	http://dl.sourceforge.net/utidylib/%{module}-%{version}.zip
+Source0:	http://download.berlios.de/utidylib/%{module}-%{version}.zip
 # Source0-md5:	c9f16988f92ef660f46523192ef37462
-URL:		http://
+URL:		http://utidylib.berlios.de/
 Requires:	python-ctypes
 Requires:	tidy
 BuildArch:	noarch
