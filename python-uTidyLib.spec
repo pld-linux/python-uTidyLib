@@ -10,6 +10,7 @@ Group:		Development/Languages/Python
 Source0:	http://download.berlios.de/utidylib/%{module}-%{version}.zip
 # Source0-md5:	c9f16988f92ef660f46523192ef37462
 URL:		http://utidylib.berlios.de/
+BuildRequires:	unzip
 Requires:	python-ctypes
 Requires:	tidy
 BuildArch:	noarch
