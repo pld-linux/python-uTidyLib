@@ -21,7 +21,7 @@ and cleanup HTML from Python.
 
 %description -l pl
 uTidyLib to modu³ Pythona obudowywuj±cy bibliotekê TidyLib. Pozwala
-validowaæ i czy¶ciæ HTML z poziomu Pythona.
+sprawdzaæ poprawno¶æ i czy¶ciæ HTML z poziomu Pythona.
 
 %prep
 %setup -q -n %{module}-%{version}
