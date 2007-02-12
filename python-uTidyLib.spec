@@ -1,7 +1,7 @@
 %define 	module uTidylib
 
 Summary:	Python wrapper for TidyLib
-Summary(pl):	Modu³ TidyLib dla Pythona
+Summary(pl.UTF-8):   ModuÅ‚ TidyLib dla Pythona
 Name:		python-%{module}
 Version:	0.2
 Release:	0.2
@@ -22,9 +22,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 uTidyLib is a Python wrapper for TidyLib. It allows you to validate
 and cleanup HTML from Python.
 
-%description -l pl
-uTidyLib to modu³ Pythona obudowywuj±cy bibliotekê TidyLib. Pozwala
-sprawdzaæ poprawno¶æ i czy¶ciæ HTML z poziomu Pythona.
+%description -l pl.UTF-8
+uTidyLib to moduÅ‚ Pythona obudowywujÄ…cy bibliotekÄ™ TidyLib. Pozwala
+sprawdzaÄ‡ poprawnoÅ›Ä‡ i czyÅ›ciÄ‡ HTML z poziomu Pythona.
 
 %prep
 %setup -q -n %{module}-%{version}
