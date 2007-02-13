@@ -1,7 +1,7 @@
 %define 	module uTidylib
 
 Summary:	Python wrapper for TidyLib
-Summary(pl.UTF-8):   Moduł TidyLib dla Pythona
+Summary(pl.UTF-8):	Moduł TidyLib dla Pythona
 Name:		python-%{module}
 Version:	0.2
 Release:	0.2
